@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    font-family: Sans-Serif;
+}
+
+.line {
+    width: 100vw;
+    background-color: grey;
+}
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: clamp(5px, 15px, 30px);
+    text-align: center;
+}
+
+.cart {
+    color: white;
+}
+
+.center {
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.firstSelect {
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: monospace;
+    font-size: clamp(3px, 15px, 35px);
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.heading {
+    color: #51DDE0;
+    font-family: Sans-Serif;
+    font-size: clamp(15px, 38px, 50px);
+}
+
+h4 {
+    color: grey;
+    font-family: Sans-Serif;
+    font-size: clamp(5px, 10px, 20px);
+}
+
+h5 {
+    color: #51DDE0;
+    font-family: Sans-Serif;
+    font-size: clamp(2px, 7px, 35px);
+}
+
+.tri {
+    color: red;
+}
+
+.text {
+    font-size: clamp(3px, 7px, 25px);
+    color: grey;
+    background-color: white;
+    padding: 1vh;
+    font-weight: bold;
+}
+
+p {
+    font-size: clamp(5px, 8px, 25px);
+    color: grey;
+}
+
+h6 {
+    font-size: clamp(0px, 7px, 25px);
+    color: grey;
+}
+
+.avg {
+    font-size: clamp(2px, 7px, 25px);
+}
+
+h1 {
+    font-size: clamp(8px, 15px, 25px);
+    color: black;
+}
+
+h3 {
+    font-size: clamp(10px, 17px, 30px);
+}
+
+.button {
+    color: white;
+    background-color: #51DDE0;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: clamp(5px, 9px, 25px);
+    max-width: 140px;
+    max-height: 160px;
+    height: 30px;
+    font-family: Roboto;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #51DDE0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: white;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.timer-display {
+    color: #51DDE0;
+    font-size: clamp(6px, 9px, 12px);
+    border: 1px solid #51DDE0;
+    border-radius: 40px;
+    text-align: center;
+    width: 23px;
+    max-width: 50px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.new {
+    color: white;
+}
+
+th {
+    color: #51DDE0;
+    background-color: rgb(68, 11, 93);
+}
+
+.center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    float: center;
+    font-size: clamp(5px, 25px, 30px);
+    width: 100vw;
+}
